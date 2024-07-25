@@ -4,43 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
+    <link rel="stylesheet" href="./style/createProst.css">
 
+    <!-- css fayl link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap" rel="stylesheet">
+    <!-- font jomolhari -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">    
-
-    <link rel="stylesheet" href="./style/figma.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- font inter -->
 </head>
 <body>
-     <header>
-        <nav>
-            <div class="container">
-                <div class="nav__wrapper">
-                    <img src="./images/logo.svg" alt="">
-                    <div style="display: flex;align-items: center; gap: 30px;">
-                        <a class="list" href="./pages/register.html">SignUp</a>
-                        <a  class="list"href="./pages/login.html">LoginUp</a>
-                    </div>
+    <header>
+       <div class="container">
+        <nav class="nav">
+            <a href="./src/pages/dashbord.html">
+                <img src="./images/logo.png" alt="logotip">
+            </a>
+            <ul class="nav-list">
+                <li class="nav-list-itme">
+                    <a class="auth-page" href="./pages/login.html">Log In</a>
+                </li>
+                <li class="nav-list-itme">
+                    <a class="auth-page" href="./pages/register.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+       </div>
+    </header>
+
+    <!-- section hero -->
+    <section id="hero">
+        <!-- bacground image -->
+    </section>
+
+
+    <!-- section articles -->
+    <section id="articles">
+        <div class="container">
+            <div class="wrapper">
+                <h2 class="articles-title">All articles</h2>
+                <div class="carusel">
+
                 </div>
             </div>
-     </nav>
-     <div class="hero">
-        <div class="hero__img">
-            <img width="100%" src="./images/image 2.png" alt="">
         </div>
-     </div>
-     </header>
-    
-     <section>
-        <div class="container">
-            <div class="section__title">
-                <h2 class="section__text">All articles</h2>
-            </div>
-        </div>
-     </section>
+    </section>
+
+ <script src="./script/createPost.js"></script>
 </body>
 </html>
 
